@@ -1,0 +1,29 @@
+
+/* Estilos para el contenedor de las tarjetas de autos de lujo */
+.card-group {
+    display: flex; /* Mostrar como flexbox */
+    justify-content: space-around; /* Distribuir el espacio alrededor de los elementos */
+    flex-wrap: wrap; /* Permitir el ajuste de línea */
+  }
+  
+  .card {
+    width: 30%; /* Ancho de cada tarjeta */
+    margin-bottom: 20px; /* Margen inferior */
+
+}
+  
+  .card img {
+
+    width: 100%; /* Imagen ocupando el ancho completo de la tarjeta */
+  }
+  
+  .card-title {
+    font-size: 1.25rem; /* Tamaño de fuente del título */
+    margin-bottom: 0.75rem; /* Margen inferior */
+  }
+  
+  .card-text {
+    color: #000000; /* Color del texto */
+    font-size: .975rem; /* Tamaño de fuente */
+  }
+  
